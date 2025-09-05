@@ -8,6 +8,11 @@
     padding: 0px;
 
 }
+
+html, body{
+min-height: 100vh;
+font-family: var(--fonte01);
+}
 section, aside, footer{
 background-color: white;
 }
@@ -34,7 +39,13 @@ padding-top: 5px;
 nav > a{
     padding-right: 15px;
 }
-
+section{
+    padding-top: 10vh;
+padding-bottom: 10vh;
+line-height: 2em;
+padding-left: 20px;
+font-size: 2.5vw;
+}
 section, aside{
    
     padding: 15px;
@@ -46,4 +57,12 @@ footer{
     color: white;
     text-align: center;
     font-size: 1em;
+}
+section#img{
+    background-attachment: fixed;
+}
+.pt2{
+    background-image: url('fortnite-peely-yq7o67jogd0uks7j.jpg');
+    background-position: center center;
+    background-size: cover;
 }
